@@ -1,0 +1,24 @@
+#container {
+    /* To create the column layout. */
+    display: flex;
+
+    /* To make the container relative to its children. */
+    position: relative;
+}
+#container .ck.ck-editor {
+    /* To stretch the editor to max 700px
+        (just to look nice for this example but it can be any size). */
+    width: 100%;
+    max-width: 638px;
+}
+#sidebar {
+    /* Set some size for the sidebar (it can be any). */
+    min-width: 65px;
+
+    /* Add some distance. */
+    padding: 0 10px;
+}
+.ask-question .form-style label {
+    margin-top: 0px;
+}
+                

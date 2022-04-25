@@ -1,0 +1,65 @@
+.view-tab {
+    color: #0077cc;
+    border: 1px solid #379fef;
+    border-radius: 3px;
+    background-color: white;
+    padding: 10px;
+    &:hover {
+        color: #0064bd;
+        background: #f2f9ff;
+    }
+}
+.clicked {
+    background-color: #3498db;
+    color: #fff;
+    border: 1px solid #379fef;
+}
+.pagination {
+    display: flex;
+    float: left;
+}
+.user-block {
+    display:flex; 
+    // border: 1px solid #7aa7c7; 
+    padding: 10px; 
+    // border-radius: 10px; 
+    // background-color: white;
+    height: 102px;
+    // width: 150px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #7aa7c7;
+}
+.name {
+    margin-bottom: 2px
+}
+.after-username {
+    margin-bottom: 10px;
+}
+.user-info {
+    width: 60%;
+    word-wrap: break-word;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.points b {
+    color: #30333A
+}
+.pagination {
+    display: flex;
+    float: right;
+}
+.pagination-user {
+    margin-top: -53px;
+}
+.users-block {
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    color: #2f3239;
+    border: 1px solid #dedede;
+    box-shadow: 0 0 5px #dedede;
+    border-radius: 5px;
+}
+#user-search {
+    margin-bottom: 30px;
+}

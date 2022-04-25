@@ -1,0 +1,34 @@
+.tags {
+    color: #39739d; 
+    background-color: #e1ecf4; 
+    border-color: #7aa7c7;
+    border: 0;
+	border-radius: 3px;
+}
+.tags:hover {
+    color: #2c5777; 
+    background-color: #d1e5f1; 
+    border-color: transparent;
+}
+.remove-question-button {
+    font-size: 20px;
+    padding: 4px 10px;
+    position: absolute;
+    top: 24px;
+    right: 20px;
+    color: red;
+    cursor: pointer;
+    z-index: 10;
+}
+.question-title {
+    width: 800px;
+    overflow-wrap: break-word; 
+}
+.question-desc {
+    width: 630px;
+    overflow-wrap: break-word;
+}
+.pagination {
+    float: inherit;
+    margin-bottom: 30px;
+}

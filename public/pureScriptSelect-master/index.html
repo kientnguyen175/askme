@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search & Select</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="width: 100%; height: 100vh">
+    <h2>pureScriptSelect </h2>
+    <div class="select-item-container">
+        <div class="select-item-list">
+            <div class="select-item-list--single">
+                <h4>Basic Select</h4>
+                <div class="directorist-select" data-default="dgdgdg" data-isSearch="true" id="selectImg">                       
+                    <select name="" >
+                        <option value="">Select Item</option>                
+                        <option value="dgdgdg">Hasan</option>               
+                        <option value="asad">Asad</option>                
+                        <option value="barek">Barek</option>
+                    </select>                   
+                </div>
+            </div>
+            <div class="select-item-list--single">
+                <h4>Multi Select</h4>
+                <div class="directorist-select directorist-select-multi" id="multiSelect" data-isSearch="true" data-max="2" data-multiSelect="['apple', 'banana', 'orange', 'mango']" >               
+                    <input type="hidden">
+                </div>
+            </div>
+            <div class="select-item-list--single">
+                <h4>Select Search</h4>
+                <div class="directorist-select" id="selectIcon" data-isSearch="true">                       
+                    <select name="" >
+                        <option value="">Select Item</option>
+                        <option icon="fas fa-check" value="abul">Abul</option>
+                        <option icon="fas fa-check" value="3">Bacco</option>                
+                        <option img='https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg' value="barek">Barek</option>
+                        <option icon="fas fa-check" value="canmia">Canmia</option>                
+                        <option icon="fas fa-check" value="5">Chonchol</option>
+                        <option icon="fas fa-check" value="chondon">Chondon</option>
+                        <option icon="fas fa-check" value="chalek">Chalek</option>                
+                        <option icon="fas fa-check" value="deloar">Deloar</option>
+                        <option icon="fas fa-check" value="dulon">Dulon</option>                
+                        <option icon="fas fa-check" value="dipu">Dipu</option>
+                        <option icon="fas fa-check" value="dulal">Dulal</option>
+                    </select>                   
+                </div>
+            </div>
+        </div> 
+    </div>   
+    <script src="script.js"></script>
+    <script>
+        // pureScriptSelect('#select');
+        pureScriptSelect('#multiSelect');
+        pureScriptSelect('#selectImg');
+        pureScriptSelect('#selectIcon');
+    </script>
+</body>
+</html>

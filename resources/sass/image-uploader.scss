@@ -1,0 +1,26 @@
+.image-uploader .uploaded .uploaded-image .delete-image i {
+    font-size: 15px;
+}
+.image-uploader .uploaded .uploaded-image .delete-image {
+    background-color: Black;
+}
+.image-uploader .uploaded .uploaded-image {
+    width: 143px;
+    height: 90.297px;
+}
+.image-uploader .uploaded .uploaded-image img {
+    object-fit: contain;
+}
+.input-field {
+    width: 581px;
+    float: right;
+    margin-top: -64px;
+}
+#add-images-ask-question {
+    width: 637px !important
+}
+.image-uploader {
+    cursor: pointer;
+    border: 1px solid #c4c4c4;
+    border-radius: 3px;
+}

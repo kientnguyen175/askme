@@ -1,0 +1,35 @@
+.user-profile-img {
+    height: 85px;
+}
+.user-profile-img img {
+    height: 100%;
+}
+.about-user {
+    margin-left: 115px
+}
+.user-profile .col-md-12 {
+    margin-bottom: 0px;
+}
+#follow-user {
+    float: right;
+    color: #0077cc;
+    border: 1px solid #379fef;
+    background-color: transparent; 
+    &:hover {
+        color: #0064bd;
+        background: #f2f9ff;
+    }
+}
+#unfollow-user {
+    border: 1px solid #379fef;
+    float: right;
+    color: white;
+    background: #379fef;
+}
+.user-profile .user-name {
+    float: left; 
+    margin-top: -55px; 
+}
+.user-profile .name {
+    padding-bottom: 36px;
+}

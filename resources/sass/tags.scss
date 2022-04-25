@@ -1,0 +1,57 @@
+.tag {
+    border-bottom: 1px solid #7aa7c7;
+    padding-top: 20px;
+}
+.tag-button {
+    margin-bottom: 10px;
+    margin-right: 5px;
+    color: #39739d; 
+    background-color: #e1ecf4; 
+    border-color: #7aa7c7;
+    border: 0;
+	border-radius: 3px;
+    &:hover {
+        color: #2c5777; 
+        background-color: #d1e5f1; 
+        border-color: transparent;
+    }
+}
+.question-count {
+    color: #3C4146;
+    font-size: 13px;
+}
+.view-tab {
+    color: #0077cc;
+    border: 1px solid #379fef;
+    border-radius: 3px;
+    background-color: white;
+    padding: 10px;
+    &:hover {
+        color: #0064bd;
+        background: #f2f9ff;
+    }
+}
+.clicked {
+    background-color: #3498db;
+    color: #fff;
+    border: 1px solid #379fef;
+}
+.pagination {
+    display: flex;
+    float: right;
+}
+.tag-link {
+    margin-top: -53px;
+}
+.tag-block {
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    color: #2f3239;
+    border: 1px solid #dedede;
+    box-shadow: 0 0 5px #dedede;
+    border-radius: 5px;
+}
+#tag-search {
+    margin-bottom: 30px;
+}
